@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    text-align: center;
+    font-family: "Europa",monospace;
+    background-color: #17202A  ;
+    font-size: 4.5vh;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    background-color: #020504;
+    /* margin-top: -40px; */
+    margin-bottom: 15px;
+}
+.title h1{
+    color: #16E316;
+    font-weight: 700;
+    vertical-align: middle;
+    padding-bottom: 8px;
+}
+.rule{
+    color: white;
+    font-weight: lighter;
+    
+}
+.rule p{
+    font-size:25px;
+    margin-bottom: 18px;
+}
+.rule span{
+    height: 93px;
+    width: 93px;
+    position: relative;
+    color: red;
+    font-size: 250%;
+    border: 5px solid black;
+    padding: 0px 50px 0 50px;
+    margin: 0 auto;
+    box-shadow: 0 0 12px #ccc;
+    font-weight: 900;
+}
+
+ .inpt{
+    height: 8vw;
+    width: 18vw;
+    position: relative;
+    /* background-color: black;
+    border: 3px solid white; */
+    margin-top: 4vw;
+    margin-left: 22vw;
+} 
+.rule button{
+    margin-top: 5.5rem;
+    background-color: #ffffff;
+    font-weight: 900;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    font-size: 60%;
+    border: 1px solid white;
+    /* border: 1px solid #16E316; */
+    /* border-radius: 20px; */
+    /* box-shadow: 0 0 8px white; */
+}
+.rule button:hover{
+    background-color: black;
+    color: #16E316;
+    border: 1px solid black;
+    box-shadow: 0 0 8px #16E316;
+    transition: all 0.5s ease;
+    /* border: 1px solid black; */
+}
+.inpt input{
+
+    background-color: black;
+    border: 3.5px solid white;
+    padding-bottom: -8px;
+    color: #16E316;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    width: 14vw;
+    height: 12vh;
+}
+.inpt button{
+    padding: 4px 4px 4px 4px;
+    margin: 2.5vh;
+   font-size: 24px;
+   font-weight: 800;
+   border: none;
+   background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+.inpt button:hover{
+    border: none;
+    box-shadow: 0 0 8px #ccc;
+    transition: all 0.5s ease;
+    background-color: white;
+}
+.result{
+     float: right; 
+     position: absolute;
+    right: 19%;
+    bottom: 12.5%;
+    line-height: 50px;
+    color: #16E316;
+    text-align: initial;
+    font-size: 28px;
+    /*margin-left: 940px;
+    margin-top: -140px; */
+}
+/* .result p{
+    margin-right: 10vw;
+    margin-top: -90px;
+    font-size: 28px;
+} */
